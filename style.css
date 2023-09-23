@@ -1,0 +1,117 @@
+*,
+body,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+  font-family: Montserrat, sans-serif
+}
+
+li {
+  margin-left: 30px;
+}
+
+/* header */
+h1 {
+  color: #813D3D;
+  padding-bottom: 3rem;
+  padding: 1.5rem 0;
+}
+
+/* introduction */
+.introduction {
+  display: flex;
+  gap: 50px;
+}
+
+.introduction__image {
+  max-width: 100%;
+  border-radius: 15%;
+
+}
+
+
+.introduction__text {
+  border-top: 1px solid #813D3D;
+
+  margin-top: 1px;
+  width: 50%;
+}
+
+/* section */
+.skills,
+.experience {
+  margin-top: 1.5rem;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+
+}
+
+.skills table {
+  border-spacing: 0;
+}
+
+.skills td {
+  border-bottom: 2px solid #813D3D;
+
+}
+
+.skills h3 {
+  color: #813D3D;
+}
+
+.skills__language--padding {
+  padding-right: 15px
+}
+
+
+.experience {
+  display: flex;
+  justify-content: space-evenly;
+  background: #c5b5ca;
+  padding: 20px 20px 0;
+  border-radius: 5%;
+
+}
+
+.experience__part,
+.education__part {
+  padding-bottom: 2rem;
+}
+
+.experience__work h3 {
+  color: #fff;
+  font-size: 1rem;
+}
+
+
+.experience__education h3 {
+  color: #813D3D;
+  font-size: 1rem;
+
+}
+
+
+
+
+
+/* footer */
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem;
+}
